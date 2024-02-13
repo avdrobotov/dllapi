@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.114,C:\Projects\Delphi12\DllApi\Dll\Unit2.pas=C:\Projects\Delphi12\DllApi\Dll\uCommonTypes.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.736,C:\Projects\Delphi12\DllApi\Dll\Unit1.pas=C:\Projects\Delphi12\DllApi\Dll\uTBrowserWindow.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.191,=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.576,C:\Users\avdro\Documents\Embarcadero\Studio\Projects\Project3.dproj=C:\Projects\Delphi12\DllApi\Dll\ADApi.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.037,C:\Projects\Delphi12\DllApi\Dll\uCefApp.pas=C:\Projects\Delphi12\DllApi\Dll\uICefApp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Projects\Delphi12\DllApi\Dll\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.421,C:\Projects\Delphi12\DllApi\Dll\Unit1.pas=C:\Projects\Delphi12\DllApi\Dll\uCefApp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.391,=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.396,C:\Projects\Delphi12\DllApi\Dll\Unit1.pas=C:\Projects\Delphi12\DllApi\Dll\uTCEFApp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.130,=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.851,C:\Projects\Delphi12\DllApi\Dll\Unit1.pas=C:\Projects\Delphi12\DllApi\Dll\uIBrowserWindow.pas</Transaction>
+    <Transaction>2024.02.12 16:16:56.897,=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>2024.02.12 16:17:31.841,C:\Projects\Delphi12\DllApi\Dll\uTDrowserWindow.pas=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>2024.02.12 17:20:35.282,C:\Projects\Delphi12\DllApi\Dll\uTDrowserWindow.pas=</Transaction>
+    <Transaction>2024.02.12 20:51:05.919,=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+    <Transaction>2024.02.12 20:51:54.693,C:\Projects\Delphi12\DllApi\Dll\uFrmBrowserWindow.dfm=C:\Projects\Delphi12\DllApi\Dll\Unit1.dfm</Transaction>
+    <Transaction>2024.02.12 20:51:54.693,C:\Projects\Delphi12\DllApi\Dll\uFrmBrowserWindow.pas=C:\Projects\Delphi12\DllApi\Dll\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uCommonTypes.pas"/>
+    <File Path="uICefApp.pas"/>
+    <File Path="uTCEFApp.pas"/>
+    <File Path="uTBrowserWindow.pas"/>
+    <File Path="uIBrowserWindow.pas"/>
+    <File Path="uFrmBrowserWindow.pas"/>
+    <File Path="uFrmBrowserWindow.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
