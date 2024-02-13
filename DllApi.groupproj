@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{62422012-43AE-4121-99F4-F4A94CD88539}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Dll\ADApi.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TestApp\TestApp.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ADApi">
+        <MSBuild Projects="Dll\ADApi.dproj"/>
+    </Target>
+    <Target Name="ADApi:Clean">
+        <MSBuild Projects="Dll\ADApi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ADApi:Make">
+        <MSBuild Projects="Dll\ADApi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestApp">
+        <MSBuild Projects="TestApp\TestApp.dproj"/>
+    </Target>
+    <Target Name="TestApp:Clean">
+        <MSBuild Projects="TestApp\TestApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestApp:Make">
+        <MSBuild Projects="TestApp\TestApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ADApi;TestApp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ADApi:Clean;TestApp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ADApi:Make;TestApp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
